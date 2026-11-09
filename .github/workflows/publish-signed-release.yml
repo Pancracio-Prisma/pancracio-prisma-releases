@@ -1,0 +1,30 @@
+name: Publish signed Prisma package
+
+on:
+  push:
+    branches:
+      - 'incoming/**'
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify signed release and tag
+        run: |
+          python -m pip install 'cryptography>=46,<51'
+          python .github/scripts/verify_release.py release "${GITHUB_REF_NAME#incoming/}"
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${GITHUB_REF_NAME#incoming/}"
+          gh release create "$tag" release/release.json release/publisher-public-key.raw release/wheels/*.whl \
+            --target "$GITHUB_SHA" --title "Pancracio Prisma $tag" \
+            --notes "Paquete firmado de Pancracio Prisma para actualización de clientes."
