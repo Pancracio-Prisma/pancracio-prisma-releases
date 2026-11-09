@@ -1,36 +1,42 @@
-# Instalación de usuario de Pancracio Prisma
+# Instala Panky Prisma en tu computadora
 
-Esta instalación se hace **por persona y por equipo**, después de que la
-empresa haya terminado su preparación inicial. No necesitas instalar nada
-por tu cuenta antes de hablar con Codex.
+Esta guía es para cada persona de la empresa. El administrador ya preparó
+Panky para la organización; tú solo instalas tu propia copia con ayuda de
+Codex.
 
-## Qué decirle al agente
+## Lo que necesitas recibir
 
-Antes de empezar, el administrador te comparte **dos cosas**: el enlace a la
-carpeta de instalación de tu empresa y un mensaje de confirmación por otro
-canal de la empresa. Reconocerás la carpeta porque su nombre empieza con
-`Pancracio-Prisma-`, seguido del nombre de tu empresa y de `macos` o `windows`.
-Descárgala en `Documents/` o dale el enlace a Codex. Muéstrale también el
-mensaje del administrador.
+Pídele al administrador estas dos cosas:
 
-Abre Codex en el equipo donde usarás Panky Prisma y dile:
+1. **El enlace a la carpeta de instalación** de tu empresa. Su nombre
+   empieza con `Pancracio-Prisma-` e incluye el nombre de la empresa y
+   `macos` o `windows`, según tu computadora.
+2. **Un mensaje de confirmación** enviado por otro canal de la empresa.
 
-> Instala Panky Prisma para mi cuenta en esta computadora. Ya tengo la carpeta
-> y el mensaje que me compartió el administrador de mi empresa. Encuéntralos
-> y sigue las instrucciones de instalación de esa carpeta. No modifiques otros
-> Pancracios que ya tenga instalados.
+Abre Codex en la computadora donde usarás Panky. Comparte ahí el enlace a
+la carpeta y el mensaje. Puedes descargar la carpeta en `Documents/` si te
+resulta más cómodo. Si Codex no puede abrir alguno, te dirá cuál falta.
 
-Si Codex no encuentra la carpeta o el mensaje, te pedirá que se los muestres.
-Después te guiará para iniciar sesión con tu cuenta de trabajo y elegir si
-quieres conservar tu espacio personal solo en esta computadora o también en
-una copia privada. Introduce contraseñas únicamente en las páginas de inicio
-de sesión, nunca en el chat.
+## Qué decirle a Codex
 
-Codex instalará Panky para esa empresa, traerá el contexto que te corresponde
-y lo mostrará en Obsidian. Tu espacio personal permanece separado. Si ya hay
-otro Pancracio en el equipo, lo conservará. Al terminar, te mostrará que la
-instalación está lista y te hará unas pocas preguntas para conocerte.
+Después de compartirle ambos, dile:
 
-Después, para actualizar basta decir «Panky, actualízate». Panky se encarga
-de instalar la versión aprobada y revisar que todo siga funcionando.
-Si algo impide la instalación, Codex te dirá qué falta y a quién pedir ayuda.
+> Instala Panky Prisma para mi empresa en esta computadora con la carpeta y
+> el mensaje que te acabo de compartir. Sigue la guía incluida y acompáñame
+> hasta que quede listo. Conserva cualquier otro Pancracio que ya tenga.
+
+Codex hará las comprobaciones y te guiará para iniciar sesión con tu cuenta
+de trabajo. Escribe contraseñas únicamente en la página de inicio de sesión,
+nunca en el chat.
+
+## Al terminar
+
+Panky traerá la información de trabajo que te corresponde. Tu espacio
+personal quedará separado y podrás elegir si permanece solo en esta
+computadora o si también tiene una copia privada.
+
+Codex te dirá cuando la instalación esté **lista** y Panky te hará unas
+pocas preguntas para empezar a trabajar contigo. Si algo falta, Codex te
+dirá qué pedirle al administrador.
+
+Para futuras actualizaciones, basta decir: **«Panky, actualízate»**.
