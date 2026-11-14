@@ -111,8 +111,18 @@ Codex hace las comprobaciones.
 ## Altas y cambios posteriores
 
 Después puedes pedirle a Panky, en lenguaje natural, altas de personas,
-departamentos, puestos, herramientas, recursos o excepciones. Panky reutiliza
-lo existente, muestra el efecto del cambio y verifica que quedó activo.
+departamentos, puestos, herramientas, recursos o excepciones. Panky comprueba
+tu autoridad, muestra el cambio y confirma cuándo quedó activo. Una solicitud
+pendiente todavía no concede acceso.
+
+- **Autoridad:** `super_admin` pertenece al Actor; `admin` y `basic` son tipos
+  de Seat. Ser dev o tener un puesto con nombre de manager no concede permisos
+  administrativos por sí solo. Un grant explícito puede delegar una acción
+  concreta, como registrar herramientas, sin convertir ese Seat en admin.
+- **Herramientas:** registrarlas en Panky no crea su conector. Primero un
+  técnico configura y comprueba el adaptador en Gateway. Panky solo registra
+  una herramienta conectada si el solicitante tiene la acción permitida; la
+  nueva política rige después de que Core la publica.
 
 Las instrucciones completas para esas altas están en
 `AGENT_ENTITY_ONBOARDING.md`. Borrar o revocar acceso requiere una decisión
