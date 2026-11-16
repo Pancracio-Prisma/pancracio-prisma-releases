@@ -39,11 +39,20 @@ Con `Documents/` abierto, envíale este mensaje:
 Codex comprueba los repos y conserva cualquier trabajo local previo.
 También te dirá qué necesita de cada cuenta; no tienes que editar JSON ni
 ejecutar los comandos internos de instalación.
+Al comenzar te preguntará **una sola vez** si esta instancia es un POC o una
+instalación definitiva. Si ya empezaste la instalación antes de que existiera
+esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
 
 ## Decisiones que te pedirá
 
 ### Empresa e infraestructura
 
+- **Etapa:** POC para probar el producto o instalación definitiva. En POC
+  puedes mantener privados Core y Workspace aunque tu plan de GitHub no
+  permita proteger `main`; la entrega quedará marcada POC. Se siguen
+  comprobando HTTPS, identidad, permisos y publicación real. Para pasar a
+  definitiva hará falta proteger esas ramas y configurar un nombre DNS
+  estable para Policy, volver a verificar y generar una entrega nueva.
 - **Empresa:** nombre legal, dominio, idioma y nombre visible de Panky.
 - **Modalidad:** infraestructura propia o alojada por Brunova. Hoy está
   implementada la modalidad propia. La alojada aún no tiene provisionador
