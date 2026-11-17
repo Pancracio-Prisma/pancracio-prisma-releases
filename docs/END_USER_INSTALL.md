@@ -1,49 +1,77 @@
 # Instala Panky Prisma en tu computadora
 
-Esta guía es para cada persona de la empresa. El administrador ya preparó
-Panky para la organización; tú solo instalas tu propia copia con ayuda de
-Codex.
+Esta guía es para cada persona de la empresa. La empresa ya preparó Panky;
+Codex te ayudará a instalar tu copia y comprobar que quedó lista.
 
 ## Lo que necesitas recibir
 
-Pídele al administrador estas dos cosas:
+El administrador te entregará dos cosas por canales distintos:
 
-1. **El enlace a la carpeta de instalación** de tu empresa. Su nombre
-   empieza con `Pancracio-Prisma-` e incluye el nombre de la empresa y
-   `macos` o `windows`, según tu computadora.
-2. **Un mensaje de confirmación** enviado por otro canal de la empresa.
+1. **El ZIP de instalación** para tu empresa y tu sistema (`macos` o
+   `windows`). Su nombre empieza con `Pancracio-Prisma-`.
+2. **Un aviso de verificación** enviado por otro canal de la empresa. Su
+   nombre termina en `-verification.md`. Codex lo comprobará; tú no necesitas
+   interpretar sus números. El aviso no viene dentro del ZIP.
 
-Abre Codex en la computadora donde usarás Panky. Comparte ahí el enlace a
-la carpeta y el mensaje. Puedes descargar la carpeta en `Documents/` si te
-resulta más cómodo. Si Codex no puede abrir alguno, te dirá cuál falta.
+Si solo recibiste el ZIP, pide el aviso al administrador antes de instalar.
+No basta con que te diga por chat que el paquete es correcto.
 
-## Qué decirle a Codex
+## Cómo empezar
 
-Después de compartirle ambos, dile:
+Descarga el ZIP y extráelo en tu computadora. Abre **la carpeta extraída**
+`Pancracio-Prisma-<empresa>-<macos|windows>-v<versión>` como carpeta de trabajo
+en Codex. No abras una carpeta de otro Panky que ya uses. Comparte con Codex
+el aviso de verificación recibido por el otro canal, o indícale dónde puede
+leerlo si tiene acceso a ese canal.
 
-> Instala Panky Prisma para mi empresa en esta computadora con la carpeta y
-> el mensaje que te acabo de compartir. Sigue la guía incluida y acompáñame
-> hasta que quede listo. Conserva cualquier otro Pancracio que ya tenga.
+Dile a Codex:
 
-Codex hará las comprobaciones y te guiará para iniciar sesión con tu cuenta
-de trabajo. Si tu empresa está probando Panky en modo POC, no necesitas
-conectar una cuenta GitHub durante esta primera instalación. Escribe
-contraseñas únicamente en la página de inicio de sesión, nunca en el chat.
+> Instala Panky Prisma en esta computadora siguiendo las instrucciones de
+> esta carpeta. Comprueba el aviso de verificación que recibí por separado,
+> guíame hasta que quede listo y conserva cualquier otro Pancracio que ya
+> tenga.
+
+Este mensaje sirve para cualquier empresa: la carpeta contiene su
+configuración firmada. Codex lee `AGENT_END_USER_INSTALL.md` dentro de ella,
+comprueba el paquete y se encarga de los pasos técnicos. No tienes que
+ejecutar comandos ni proporcionar identificadores de la empresa.
+
+## Lo que te pedirá la instalación
+
+Codex te guiará para iniciar sesión con **tu cuenta Google de trabajo**. Si
+Google muestra una pantalla de permisos, revisarás y aprobarás allí el acceso
+que Panky solicita para trabajar con Google Workspace, como Drive, Docs o
+Sheets. Panky actúa con tu cuenta dentro de lo que Google te permite y de los
+permisos que tu empresa haya configurado. Esta aprobación no le da acceso a
+otras cuentas tuyas. Escribe contraseñas y códigos solo en la página de
+Google; nunca los pegues en el chat.
+
+Si tu empresa está en **modo POC**, no necesitas cuenta GitHub, una sesión
+abierta en GitHub ni una llave SSH preparada en tu computadora. El kit ya
+indica la cuenta de transporte de la empresa. Durante la instalación, Codex
+crea una llave distinta para esta computadora, el Gateway la registra y
+comprueba que la instalación trae los repositorios autorizados para tu
+cuenta de trabajo. No te pedirá esa llave ni un token en el chat. Si la
+comprobación falla, no declarará la instalación lista.
+
+Fuera del POC, Codex te guiará para conectar tu cuenta GitHub individual y
+verificará sus accesos antes de traer información de la empresa.
 
 ## Al terminar
 
-Panky traerá la información de trabajo que te corresponde. Tu espacio
-personal quedará separado. Durante el POC permanecerá en esta computadora;
-cuando la empresa pase a modo definitivo podrás elegir una copia privada.
+Panky traerá el contexto de trabajo que te corresponde. Tu espacio personal
+quedará separado. Durante el POC permanecerá en esta computadora; cuando la
+empresa pase a modo definitivo podrás elegir una copia privada.
 
-Codex te dirá cuando la instalación esté **lista** y Panky te hará unas
-pocas preguntas para empezar a trabajar contigo. Si algo falta, Codex te
-dirá qué pedirle al administrador.
+Codex te dirá cuándo la instalación esté **lista** y Panky te hará unas pocas
+preguntas para empezar a trabajar contigo. Si falta el aviso, la autorización
+de Google o algún acceso, Codex te dirá exactamente qué necesita del
+administrador y no dará por terminado el proceso.
 
 Para futuras actualizaciones, basta decir: **«Panky, actualízate»**.
 
 Si la empresa termina el POC, Panky te avisará cuando llegue el cambio desde
 Core. Te mostrará la cuenta GitHub asignada y te preguntará qué perfil de
-Chrome la tiene abierta. Codex preparará la conexión, la clave y los accesos;
-GitHub puede pedirte aprobar una invitación. No tendrás que instalar Panky
-de nuevo ni escribir comandos o compartir claves en el chat.
+Chrome la tiene abierta. Codex preparará la conexión, la llave y los accesos;
+GitHub puede pedirte aprobar una invitación. No tendrás que reinstalar Panky
+ni escribir comandos o compartir claves en el chat.

@@ -110,8 +110,9 @@ instalación.
 
 ## Qué recibes al terminar
 
-Por cada sistema operativo necesario, Codex entrega **una carpeta de
-instalación**. Su nombre sigue siempre este formato:
+Por cada sistema operativo necesario, Codex prepara **una carpeta de
+instalación** que puede entregarse como ZIP. Su nombre sigue siempre este
+formato:
 
 `Pancracio-Prisma-<empresa>-<macos|windows>-v<versión>`
 
@@ -121,7 +122,9 @@ y la versión que generó; no tienes que adivinar el nombre.
 
 La carpeta contiene la guía del usuario, las instrucciones para Codex, la
 configuración firmada de esa empresa y el programa firmado. Puedes
-compartirla por Drive.
+comprimirla como ZIP y compartirlo por Drive. La persona descarga y extrae el
+ZIP, abre la carpeta extraída como workspace de Codex y usa el mensaje
+genérico de `END_USER_INSTALL.md`.
 
 Codex entrega además un **mensaje de confirmación separado**, con el mismo
 nombre y el sufijo `-verification.md`. Envíalo por otro canal corporativo
