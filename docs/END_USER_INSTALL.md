@@ -68,6 +68,19 @@ preguntas para empezar a trabajar contigo. Si falta el aviso, la autorización
 de Google o algún acceso, Codex te dirá exactamente qué necesita del
 administrador y no dará por terminado el proceso.
 
+## Si quieres desinstalar esta copia
+
+Dile a Codex: «Desinstala Panky Prisma de esta computadora». Codex te mostrará
+la empresa y la instancia exactas y te pedirá confirmar esa instancia. Luego
+detendrá su sincronización, revocará su llave de GitHub y sus credenciales de
+transporte, y borrará solo sus carpetas locales. Esto incluye el contexto
+personal que estuviera guardado únicamente en esa copia; pide conservar una
+copia antes de confirmar si la necesitas. Si una revocación falla, Codex dejará
+la instalación recuperable para reintentar y no dirá que se desinstaló.
+
+Desinstalar tu computadora **no** da de baja tu cuenta de Panky en la empresa,
+ni cambia tus Seats o permisos. Esa baja se solicita por separado a la empresa.
+
 Para futuras actualizaciones, basta decir: **«Panky, actualízate»**.
 
 Si la empresa termina el POC, Panky te avisará cuando llegue el cambio desde
