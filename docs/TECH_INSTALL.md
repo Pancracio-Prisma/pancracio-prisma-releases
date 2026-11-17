@@ -49,10 +49,21 @@ esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
 
 - **Etapa:** POC para probar el producto o instalación definitiva. En POC
   puedes mantener privados Core y Workspace aunque tu plan de GitHub no
-  permita proteger `main`; la entrega quedará marcada POC. Se siguen
-  comprobando HTTPS, identidad, permisos y publicación real. Para pasar a
-  definitiva hará falta proteger esas ramas y configurar un nombre DNS
-  estable para Policy, volver a verificar y generar una entrega nueva.
+  permita proteger `main`; la instancia quedará marcada POC. Se siguen
+  comprobando HTTPS, identidad, permisos y publicación real. El transporte
+  Git POC requiere una cuenta universal dedicada, indicada por su login público,
+  con acceso a los repositorios de la instancia. Cada instalación necesita una
+  clave SSH distinta. El servicio seguro para registrar esas claves todavía
+  debe quedar desplegado y verificado antes de entregar un kit utilizable.
+  No se comparten credenciales ni claves privadas. Producción conserva el
+  transporte por Actor. Para pasar a definitiva, primero se entrega la versión
+  de Panky que ya sabe migrar. Una acción gobernada publica la transición en
+  Core y cada instalación recibe la señal o la recupera al reconectarse.
+  Panky guía a cada Actor para vincular su cuenta GitHub y probar su clave y
+  repositorios; la cuenta universal sigue activa durante este recorrido.
+  Solo después de verificar todas las instalaciones activas, el DNS estable
+  de Policy y la protección de Core y Workspace se publica el modo definitivo
+  y se revocan las claves compartidas. La señal no requiere un kit nuevo.
 - **Empresa:** nombre legal, dominio, idioma y nombre visible de Panky.
 - **Modalidad:** infraestructura propia o alojada por Brunova. Hoy está
   implementada la modalidad propia. La alojada aún no tiene provisionador

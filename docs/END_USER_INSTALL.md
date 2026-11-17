@@ -26,17 +26,24 @@ Después de compartirle ambos, dile:
 > hasta que quede listo. Conserva cualquier otro Pancracio que ya tenga.
 
 Codex hará las comprobaciones y te guiará para iniciar sesión con tu cuenta
-de trabajo. Escribe contraseñas únicamente en la página de inicio de sesión,
-nunca en el chat.
+de trabajo. Si tu empresa está probando Panky en modo POC, no necesitas
+conectar una cuenta GitHub durante esta primera instalación. Escribe
+contraseñas únicamente en la página de inicio de sesión, nunca en el chat.
 
 ## Al terminar
 
 Panky traerá la información de trabajo que te corresponde. Tu espacio
-personal quedará separado y podrás elegir si permanece solo en esta
-computadora o si también tiene una copia privada.
+personal quedará separado. Durante el POC permanecerá en esta computadora;
+cuando la empresa pase a modo definitivo podrás elegir una copia privada.
 
 Codex te dirá cuando la instalación esté **lista** y Panky te hará unas
 pocas preguntas para empezar a trabajar contigo. Si algo falta, Codex te
 dirá qué pedirle al administrador.
 
 Para futuras actualizaciones, basta decir: **«Panky, actualízate»**.
+
+Si la empresa termina el POC, Panky te avisará cuando llegue el cambio desde
+Core. Te mostrará la cuenta GitHub asignada y te preguntará qué perfil de
+Chrome la tiene abierta. Codex preparará la conexión, la clave y los accesos;
+GitHub puede pedirte aprobar una invitación. No tendrás que instalar Panky
+de nuevo ni escribir comandos o compartir claves en el chat.
