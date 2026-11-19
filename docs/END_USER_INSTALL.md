@@ -33,8 +33,11 @@ Dile a Codex:
 
 Este mensaje sirve para cualquier empresa: la carpeta contiene su
 configuración firmada. Codex lee `AGENT_END_USER_INSTALL.md` dentro de ella,
-comprueba el paquete y se encarga de los pasos técnicos. No tienes que
-ejecutar comandos ni proporcionar identificadores de la empresa.
+comprueba el paquete y busca la versión firmada más reciente **antes de la
+primera instalación**. El número en el nombre del ZIP indica la versión con
+que se preparó el kit; no limita la versión que quedará instalada. Si no se
+puede comprobar el canal o la firma, Codex se detiene y te explica el motivo.
+No tienes que ejecutar comandos ni proporcionar identificadores de la empresa.
 
 ## Lo que te pedirá la instalación
 

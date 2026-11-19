@@ -124,7 +124,11 @@ La carpeta contiene la guía del usuario, las instrucciones para Codex, la
 configuración firmada de esa empresa y el programa firmado. Puedes
 comprimirla como ZIP y compartirlo por Drive. La persona descarga y extrae el
 ZIP, abre la carpeta extraída como workspace de Codex y usa el mensaje
-genérico de `END_USER_INSTALL.md`.
+genérico de `END_USER_INSTALL.md`. El kit fija la configuración de la empresa
+y las claves de confianza; al instalar, Codex verifica y obtiene el release
+vigente antes del primer bootstrap. No hace falta rehacer el kit por cada
+versión del producto. Si el canal no se puede verificar, la instalación se
+detiene en vez de ejecutar automáticamente el release anterior del ZIP.
 
 Codex entrega además un **mensaje de confirmación separado**, con el mismo
 nombre y el sufijo `-verification.md`. Envíalo por otro canal corporativo
