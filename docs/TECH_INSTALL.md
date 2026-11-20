@@ -134,10 +134,10 @@ vigente antes del primer bootstrap. No hace falta rehacer el kit por cada
 versión del producto. Si el canal no se puede verificar, la instalación se
 detiene en vez de ejecutar automáticamente el release anterior del ZIP.
 
-Codex entrega además un **aviso de verificación**, con el mismo nombre y el
-sufijo `-verification.md`. Puedes entregarlo junto con el ZIP en cualquier
-modo; la persona solo necesita ambos archivos, sin probar un segundo canal.
-La persona solo muestra a Codex la carpeta y ese aviso;
+La carpeta incluye un **aviso de verificación**, con el mismo nombre y el
+sufijo `-verification.md`. Al comprimirla, el aviso queda dentro del ZIP en
+cualquier modo; no hace falta un segundo archivo ni un segundo canal.
+La persona solo muestra a Codex la carpeta extraída;
 Codex hace las comprobaciones.
 
 ## Altas y cambios posteriores
