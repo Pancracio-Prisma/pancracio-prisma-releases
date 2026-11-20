@@ -10,20 +10,20 @@ El administrador te entregará dos archivos:
 1. **El ZIP de instalación** para tu empresa y tu sistema (`macos` o
    `windows`). Su nombre empieza con `Pancracio-Prisma-`.
 2. **Un aviso de verificación** cuyo nombre termina en `-verification.md`.
-   Puede estar junto al ZIP o en la carpeta donde lo extrajiste. Codex
+   Puede estar junto al ZIP o dentro de la carpeta extraída. Codex
    comprobará las firmas; tú no necesitas interpretar sus números.
 
-En modo POC, estos dos archivos pueden llegar juntos. Si falta el aviso,
-pídelo al administrador. En modo definitivo, el administrador debe enviarlo
-por un canal independiente para confirmar también el origen del paquete.
+Estos dos archivos pueden llegar juntos, tanto en POC como en modo definitivo.
+Si falta el aviso, pídelo al administrador. Recíbelos de la persona que
+administra Panky en tu empresa.
 
 ## Cómo empezar
 
 Descarga el ZIP y extráelo en tu computadora. Abre **la carpeta extraída**
 `Pancracio-Prisma-<empresa>-<macos|windows>-v<versión>` como carpeta de trabajo
 en Codex. No abras una carpeta de otro Panky que ya uses. Comparte con Codex
-el aviso de verificación si está en otra carpeta. Si está junto al ZIP,
-Codex lo encontrará ahí.
+el aviso de verificación si está en otra carpeta. Si está junto al ZIP o
+dentro de la carpeta extraída, Codex lo encontrará ahí.
 
 Dile a Codex:
 
