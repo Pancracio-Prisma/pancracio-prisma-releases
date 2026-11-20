@@ -134,9 +134,11 @@ vigente antes del primer bootstrap. No hace falta rehacer el kit por cada
 versión del producto. Si el canal no se puede verificar, la instalación se
 detiene en vez de ejecutar automáticamente el release anterior del ZIP.
 
-Codex entrega además un **mensaje de confirmación separado**, con el mismo
-nombre y el sufijo `-verification.md`. Envíalo por otro canal corporativo
-autenticado. La persona solo muestra a Codex la carpeta y ese mensaje;
+Codex entrega además un **aviso de verificación**, con el mismo nombre y el
+sufijo `-verification.md`. Para el POC puedes entregarlo junto con el ZIP; la
+persona solo necesita ambos archivos, sin probar un segundo canal. Fuera del
+POC, envía el aviso por otro canal corporativo autenticado. La persona solo
+muestra a Codex la carpeta y ese aviso;
 Codex hace las comprobaciones.
 
 ## Altas y cambios posteriores

@@ -5,29 +5,30 @@ Codex te ayudará a instalar tu copia y comprobar que quedó lista.
 
 ## Lo que necesitas recibir
 
-El administrador te entregará dos cosas por canales distintos:
+El administrador te entregará dos archivos:
 
 1. **El ZIP de instalación** para tu empresa y tu sistema (`macos` o
    `windows`). Su nombre empieza con `Pancracio-Prisma-`.
-2. **Un aviso de verificación** enviado por otro canal de la empresa. Su
-   nombre termina en `-verification.md`. Codex lo comprobará; tú no necesitas
-   interpretar sus números. El aviso no viene dentro del ZIP.
+2. **Un aviso de verificación** cuyo nombre termina en `-verification.md`.
+   Puede estar junto al ZIP o en la carpeta donde lo extrajiste. Codex
+   comprobará las firmas; tú no necesitas interpretar sus números.
 
-Si solo recibiste el ZIP, pide el aviso al administrador antes de instalar.
-No basta con que te diga por chat que el paquete es correcto.
+En modo POC, estos dos archivos pueden llegar juntos. Si falta el aviso,
+pídelo al administrador. En modo definitivo, el administrador debe enviarlo
+por un canal independiente para confirmar también el origen del paquete.
 
 ## Cómo empezar
 
 Descarga el ZIP y extráelo en tu computadora. Abre **la carpeta extraída**
 `Pancracio-Prisma-<empresa>-<macos|windows>-v<versión>` como carpeta de trabajo
 en Codex. No abras una carpeta de otro Panky que ya uses. Comparte con Codex
-el aviso de verificación recibido por el otro canal, o indícale dónde puede
-leerlo si tiene acceso a ese canal.
+el aviso de verificación si está en otra carpeta. Si está junto al ZIP,
+Codex lo encontrará ahí.
 
 Dile a Codex:
 
 > Instala Panky Prisma en esta computadora siguiendo las instrucciones de
-> esta carpeta. Comprueba el aviso de verificación que recibí por separado,
+> esta carpeta. Comprueba el aviso de verificación que acompaña al kit,
 > guíame hasta que quede listo y conserva cualquier otro Pancracio que ya
 > tenga.
 
