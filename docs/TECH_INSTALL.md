@@ -79,7 +79,10 @@ esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
 ### Organización y acceso
 
 - **Estructura inicial:** raíz, departamentos, equipos y puestos (*Seats*).
-  Indica quién ocupa cada puesto; una persona puede ocupar más de uno.
+  Indica quién ocupa cada puesto y a qué puesto reporta; una persona puede
+  ocupar más de uno. Si un responsable debe consultar el trabajo de sus
+  reportes, Codex registra esa relación y le concede lectura de ese contexto,
+  sin permiso para modificarlo.
 - **Autoridad:** administrador principal, usuarios y correos corporativos.
   Codex no deduce permisos de un título de trabajo.
 - **Contexto compartido:** qué puede conocer y modificar cada puesto. Codex
@@ -99,8 +102,9 @@ esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
    datos, Policy y Gateway. Publica la primera política y comprueba que cada
    persona reciba solo el contexto y los recursos autorizados.
 3. **Identidad y sincronización.** Configura el inicio de sesión, Pub/Sub y
-   signals. Prueba un acceso permitido, uno denegado y un aviso de cambio
-   que llegue únicamente a quien corresponda.
+   signals. Prueba un cambio real de Core: Policy debe confirmar el mismo
+   commit antes de enviar la señal. Comprueba también un acceso permitido,
+   uno denegado y un aviso que llegue únicamente a quien corresponda.
 4. **Entrega.** Comprueba una instalación de usuario en los sistemas que se
    usarán. Solo entonces prepara las carpetas para los nuevos usuarios.
 
