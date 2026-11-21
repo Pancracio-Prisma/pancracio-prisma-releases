@@ -1,7 +1,7 @@
 # Instala Panky Prisma en tu computadora
 
 Esta guía es para cada persona de la empresa. La empresa ya preparó Panky;
-El agente que elijas (Codex, Claude Code o Gemini CLI) te ayudará a instalar
+El agente que elijas (Codex, Claude Code, Gemini CLI o Antigravity) te ayudará a instalar
 tu copia y comprobar que quedó lista.
 
 ## Lo que necesitas recibir
@@ -81,7 +81,7 @@ La carpeta extraída del ZIP sirve para instalar, no para el uso diario. Si el
 alta queda pendiente, continúa el chat de instalación desde el estado guardado
 hasta que el agente confirme que está lista; no reinstales para retomar.
 
-Al abrir por primera vez esa carpeta en Claude Code o Gemini CLI, la aplicación
+Al abrir por primera vez esa carpeta en Claude Code, Gemini CLI o Antigravity, la aplicación
 puede pedirte confiar en la carpeta o permitir las herramientas de Panky.
 Comprueba que muestra la ruta de esta instancia; el agente debe usar tu
 identidad de Google y las mismas reglas de acceso, aunque cambies de chat.

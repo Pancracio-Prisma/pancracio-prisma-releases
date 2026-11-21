@@ -11,7 +11,7 @@ actualizaciones salen de [Prisma Releases](https://github.com/Pancracio-Prisma/p
 
 ## Antes de empezar
 
-Abre `Documents/` como carpeta de trabajo en Codex, Claude Code o Gemini CLI.
+Abre `Documents/` como carpeta de trabajo en Codex, Claude Code, Gemini CLI o Antigravity.
 El agente elegido necesita acceso a archivos y terminal; para pasos de navegador
 puede guiarte mientras tú completas el inicio de sesión y las aprobaciones.
 Deja listo:
