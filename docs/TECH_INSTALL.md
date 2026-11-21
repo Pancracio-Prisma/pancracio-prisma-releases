@@ -2,7 +2,7 @@
 
 Esta instalación se hace **una vez por empresa**. Prepara la organización,
 sus accesos y sus servicios. Después, cada persona instala Panky con la
-carpeta de entrega que Codex genera al terminar.
+carpeta de entrega que el agente elegido genera al terminar.
 
 La instalación técnica usa el [producto Pancracio Prisma](https://github.com/Pancracio-Prisma/pancracio-prisma).
 Su contrato de agente obtiene [Prisma Tools](https://github.com/Pancracio-Prisma/prisma-tools)
@@ -11,23 +11,26 @@ actualizaciones salen de [Prisma Releases](https://github.com/Pancracio-Prisma/p
 
 ## Antes de empezar
 
-Abre `Documents/` como carpeta de trabajo en Codex. Deja listo:
+Abre `Documents/` como carpeta de trabajo en Codex, Claude Code o Gemini CLI.
+El agente elegido necesita acceso a archivos y terminal; para pasos de navegador
+puede guiarte mientras tú completas el inicio de sesión y las aprobaciones.
+Deja listo:
 
-- **Codex con acceso completo** a la computadora, terminal y perfil de Chrome
+- **Agente con acceso** a la computadora, terminal y perfil de Chrome
   que usarás. El agente necesita operar esas superficies durante la instalación.
 - **Git y GitHub configurados.** La cuenta debe poder leer los repos privados
-  de `Pancracio-Prisma` por SSH. Codex comprobará la conexión.
+  de `Pancracio-Prisma` por SSH. El agente comprobará la conexión.
 - **Un proyecto de Google Cloud existente**, con facturación activa y una
   sesión abierta en el perfil elegido. Se usa para identidad, signals y Gateway,
   incluso si la base de datos se aloja en IONOS.
 - **Acceso a la infraestructura elegida.** Si usarás IONOS, ten abierta su
   sesión y disponible el acceso SSH protegido. Para Google, ten abierta la
-  consola del proyecto. Codex pedirá los datos cuando llegue a esa etapa.
+  consola del proyecto. El agente pedirá los datos cuando llegue a esa etapa.
 
 Escribe contraseñas y códigos únicamente en la página o terminal que
 corresponda. No los pongas en el chat ni en archivos de configuración.
 
-## Qué decirle a Codex
+## Qué decirle al agente
 
 Con `Documents/` abierto, envíale este mensaje:
 
@@ -36,7 +39,7 @@ Con `Documents/` abierto, envíale este mensaje:
 > Sigue `AGENT_TECH_INSTALL.md` y prepara https://github.com/Pancracio-Prisma/prisma-tools.
 > Guíame, verifica todo y entrégame el kit y su mensaje de confirmación.
 
-Codex comprueba los repos y conserva cualquier trabajo local previo.
+El agente comprueba los repos y conserva cualquier trabajo local previo.
 También te dirá qué necesita de cada cuenta; no tienes que editar JSON ni
 ejecutar los comandos internos de instalación.
 Al comenzar te preguntará **una sola vez** si esta instancia es un POC o una
@@ -74,18 +77,18 @@ esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
   Google elegido y se conecta de forma autenticada con Policy.
 - **Cuentas y propiedad:** perfil de Chrome, cuenta Google, proyecto GCP,
   cuenta GitHub y organización de GitHub de la empresa. Si esa organización
-  no existe, Codex te mostrará la propuesta antes de crearla.
+  no existe, el agente te mostrará la propuesta antes de crearla.
 
 ### Organización y acceso
 
 - **Estructura inicial:** raíz, departamentos, equipos y puestos (*Seats*).
   Indica quién ocupa cada puesto y a qué puesto reporta; una persona puede
   ocupar más de uno. Si un responsable debe consultar el trabajo de sus
-  reportes, Codex registra esa relación y le concede lectura de ese contexto,
+  reportes, el agente registra esa relación y le concede lectura de ese contexto,
   sin permiso para modificarlo.
 - **Autoridad:** administrador principal, usuarios y correos corporativos.
-  Codex no deduce permisos de un título de trabajo.
-- **Contexto compartido:** qué puede conocer y modificar cada puesto. Codex
+  El agente no deduce permisos de un título de trabajo.
+- **Contexto compartido:** qué puede conocer y modificar cada puesto. El agente
   prepara un repo canónico por contexto de departamento o Seat, sin duplicar
   el mismo contenido en repos de publicación.
 - **Herramientas:** Workspace, n8n u otras que use la empresa, sus recursos
@@ -93,7 +96,7 @@ esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
   conectores particulares dependen de lo que elijas; Prisma Tools es parte
   obligatoria de la instalación organizacional.
 
-## Qué prepara y comprueba Codex
+## Qué prepara y comprueba el agente
 
 1. **Producto y Tools.** Obtiene los repos oficiales de Pancracio Prisma y
    Prisma Tools, verifica sus remotos y commits, y trabaja en una carpeta
@@ -114,22 +117,22 @@ instalación.
 
 ## Qué recibes al terminar
 
-Por cada sistema operativo necesario, Codex prepara **una carpeta de
+Por cada sistema operativo necesario, el agente prepara **una carpeta de
 instalación** que puede entregarse como ZIP. Su nombre sigue siempre este
 formato:
 
 `Pancracio-Prisma-<empresa>-<macos|windows>-v<versión>`
 
 Por ejemplo, la carpeta de Headquarters para Mac empieza con
-`Pancracio-Prisma-headquarters-macos-v`. Codex te muestra la **ruta exacta**
+`Pancracio-Prisma-headquarters-macos-v`. El agente te muestra la **ruta exacta**
 y la versión que generó; no tienes que adivinar el nombre.
 
-La carpeta contiene la guía del usuario, las instrucciones para Codex, la
+La carpeta contiene la guía del usuario, las instrucciones para el agente elegido, la
 configuración firmada de esa empresa y el programa firmado. Puedes
 comprimirla como ZIP y compartirlo por Drive. La persona descarga y extrae el
-ZIP, abre la carpeta extraída como workspace de Codex y usa el mensaje
+ZIP, abre la carpeta extraída como workspace del agente elegido y usa el mensaje
 genérico de `END_USER_INSTALL.md`. El kit fija la configuración de la empresa
-y las claves de confianza; al instalar, Codex verifica y obtiene el release
+y las claves de confianza; al instalar, el agente verifica y obtiene el release
 vigente antes del primer bootstrap. No hace falta rehacer el kit por cada
 versión del producto. Si el canal no se puede verificar, la instalación se
 detiene en vez de ejecutar automáticamente el release anterior del ZIP.
@@ -137,8 +140,8 @@ detiene en vez de ejecutar automáticamente el release anterior del ZIP.
 La carpeta incluye un **aviso de verificación**, con el mismo nombre y el
 sufijo `-verification.md`. Al comprimirla, el aviso queda dentro del ZIP en
 cualquier modo; no hace falta un segundo archivo ni un segundo canal.
-La persona solo muestra a Codex la carpeta extraída;
-Codex hace las comprobaciones.
+La persona solo muestra al agente la carpeta extraída;
+el agente hace las comprobaciones.
 
 ## Altas y cambios posteriores
 
