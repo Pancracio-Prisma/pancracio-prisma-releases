@@ -71,6 +71,14 @@ preguntas para empezar a trabajar contigo. Si falta el aviso, la autorización
 de Google o algún acceso, Codex te dirá exactamente qué necesita del
 administrador y no dará por terminado el proceso.
 
+Cuando Codex confirme que está lista, pídele la **ruta exacta de la carpeta de
+trabajo instalada**. Abre esa carpeta en Codex y empieza allí tus siguientes
+chats con Panky. En Windows para Headquarters suele estar en
+`C:\Users\<tu usuario>\Pancracio Prisma\instances\headquarters\workspace`.
+La carpeta extraída del ZIP sirve para instalar, no para el uso diario. Si el
+alta queda pendiente, continúa el chat de instalación desde el estado guardado
+hasta que Codex confirme que está lista; no reinstales para retomar.
+
 ## Si quieres desinstalar esta copia
 
 Dile a Codex: «Desinstala Panky Prisma de esta computadora». Codex te mostrará
