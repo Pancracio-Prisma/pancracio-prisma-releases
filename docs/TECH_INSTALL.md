@@ -137,6 +137,16 @@ vigente antes del primer bootstrap. No hace falta rehacer el kit por cada
 versión del producto. Si el canal no se puede verificar, la instalación se
 detiene en vez de ejecutar automáticamente el release anterior del ZIP.
 
+El nombre visible elegido aquí es **uno para toda la empresa**. Si se cambia
+después, el operador técnico firma una revisión nueva del nombre y la publica
+en el Core protegido. Los Pankys que ya tengan esta capacidad la reciben al
+sincronizar Core y ejecutar su upgrade normal, sin cambiar su identidad ni sus
+permisos. Para una copia antigua que aún no sabe leer esa revisión, entrega un
+kit firmado nuevo: la persona lo puede dejar junto a la carpeta extraída de
+su instalación anterior y pedir «Actualiza mi Panky Prisma con el paquete
+firmado nuevo que dejé aquí». El agente verifica ambas firmas, conserva la
+instancia y reconcilia. No hay nombres diferentes por usuario o Seat.
+
 La carpeta incluye un **aviso de verificación**, con el mismo nombre y el
 sufijo `-verification.md`. Al comprimirla, el aviso queda dentro del ZIP en
 cualquier modo; no hace falta un segundo archivo ni un segundo canal.
