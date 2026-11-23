@@ -35,6 +35,9 @@ una versión revisada del Core.
 Durante una prueba de concepto, la empresa puede usar una cuenta GitHub de
 transporte compartida; cada computadora recibe su propia llave. Tu cuenta
 Google de trabajo sigue identificándote y limitando lo que Panky te muestra.
+Quien tenga una de esas llaves puede acceder directamente por Git a los
+repositorios concedidos a la cuenta compartida. La empresa debe tratarla como
+una credencial de prueba y retirarla al pasar a cuentas individuales.
 
 ## Cómo empezar
 
