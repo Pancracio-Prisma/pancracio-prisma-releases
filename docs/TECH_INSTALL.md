@@ -16,6 +16,11 @@ El agente elegido necesita acceso a archivos y terminal; para pasos de navegador
 puede guiarte mientras tú completas el inicio de sesión y las aprobaciones.
 Deja listo:
 
+- **Visual Studio Code** instalado, con la interfaz de Codex, Claude Code,
+  Gemini CLI o Antigravity que prefieras usar. Inicia sesión en ese proveedor
+  y comprueba que tu plan permite usar su agente en VS Code. Para trabajar de
+  forma continua, prevé un plan de pago de entrada cercano a USD 20 al mes;
+  el precio y los límites dependen del proveedor.
 - **Agente con acceso** a la computadora, terminal y perfil de Chrome
   que usarás. El agente necesita operar esas superficies durante la instalación.
 - **Git y GitHub configurados.** La cuenta debe poder leer los repos privados

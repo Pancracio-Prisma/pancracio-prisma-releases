@@ -1,18 +1,25 @@
 # Instala Panky Prisma en tu computadora
 
-Esta guía es para cada persona de la empresa. La empresa ya preparó Panky;
-El agente que elijas (Codex, Claude Code, Gemini CLI o Antigravity) te ayudará a instalar
-tu copia y comprobar que quedó lista.
+Esta guía es para cada persona de la empresa. La empresa ya preparó Panky.
+El agente que elijas (Codex, Claude Code, Gemini CLI o Antigravity) te ayudará
+a instalar tu copia y comprobar que quedó lista.
+
+## Antes de empezar
+
+Instala **Visual Studio Code** y la interfaz del agente de IA que prefieras:
+Codex, Claude Code, Gemini CLI o Antigravity. Inicia sesión en ese proveedor y
+comprueba que tu plan permite usarlo en VS Code. Para el uso cotidiano, prevé
+un plan de pago de entrada cercano a USD 20 al mes; el precio y los límites
+dependen del proveedor. También necesitarás la cuenta Google de trabajo que
+tu empresa dio de alta en Panky.
 
 ## Lo que necesitas recibir
 
-El administrador te entregará un archivo:
-
-1. **El ZIP de instalación** para tu empresa y tu sistema (`macos` o
-   `windows`). Su nombre empieza con `Pancracio-Prisma-`.
+El administrador te entregará **un ZIP de instalación** para tu empresa y tu
+sistema (`macos` o `windows`). Su nombre empieza con `Pancracio-Prisma-`.
 Al extraerlo encontrarás un aviso de verificación cuyo nombre termina en
-`-verification.md`. El agente comprobará las firmas; tú no necesitas interpretar
-sus números.
+`-verification.md`. El agente comprobará las firmas; tú no necesitas
+interpretar sus números.
 
 Esto funciona tanto en POC como en modo definitivo. Si falta el aviso dentro
 de la carpeta extraída, pídelo al administrador. Recibe el ZIP de la persona que
@@ -73,9 +80,17 @@ preguntas para empezar a trabajar contigo. Si falta el aviso, la autorización
 de Google o algún acceso, el agente te dirá exactamente qué necesita del
 administrador y no dará por terminado el proceso.
 
-Cuando el agente confirme que está lista, pídele la **ruta exacta de la carpeta de
-trabajo instalada**. Abre esa carpeta en el agente que prefieras y empieza allí
-tus siguientes chats con Panky. En Windows para Headquarters suele estar en
+Al quedar lista, el agente abre una ventana nueva de VS Code en la **carpeta de
+trabajo instalada**, abre el chat del proveedor que elegiste y envía un primer
+«Hola, Panky» (o el nombre que configuró tu empresa). Comprueba que Panky
+responde con tu identidad y tus permisos. No tienes que buscar la carpeta ni
+escribir ese saludo. Si el chat pide iniciar sesión, confiar en la carpeta o
+aprobar una herramienta, completa ese paso en la interfaz y el agente continúa.
+Si no puede verificar la respuesta, mantiene el primer chat pendiente y te
+explica qué bloqueó el traspaso.
+
+Para tus chats siguientes, abre esa misma carpeta con el agente que prefieras.
+En Windows para Headquarters suele estar en
 `C:\Users\<tu usuario>\Pancracio Prisma\instances\headquarters\workspace`.
 La carpeta extraída del ZIP sirve para instalar, no para el uso diario. Si el
 alta queda pendiente, continúa el chat de instalación desde el estado guardado
