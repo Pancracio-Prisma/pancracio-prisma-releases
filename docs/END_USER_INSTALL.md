@@ -1,13 +1,13 @@
 # Instala Panky Prisma en tu computadora
 
 Esta guía es para cada persona de la empresa. La empresa ya preparó Panky.
-El agente que elijas (Codex, Claude Code, Gemini CLI o Antigravity) te ayudará
+El agente que elijas (Codex, Claude Code o Antigravity) te ayudará
 a instalar tu copia y comprobar que quedó lista.
 
 ## Antes de empezar
 
 Instala **Visual Studio Code** y la interfaz del agente de IA que prefieras:
-Codex, Claude Code, Gemini CLI o Antigravity. Inicia sesión en ese proveedor y
+Codex, Claude Code o Antigravity. Inicia sesión en ese proveedor y
 comprueba que tu plan permite usarlo en VS Code. Para el uso cotidiano, prevé
 un plan de pago de entrada cercano a USD 20 al mes; el precio y los límites
 dependen del proveedor. También necesitarás la cuenta Google de trabajo que
@@ -96,7 +96,7 @@ La carpeta extraída del ZIP sirve para instalar, no para el uso diario. Si el
 alta queda pendiente, continúa el chat de instalación desde el estado guardado
 hasta que el agente confirme que está lista; no reinstales para retomar.
 
-Al abrir por primera vez esa carpeta en Claude Code, Gemini CLI o Antigravity, la aplicación
+Al abrir por primera vez esa carpeta en Claude Code o Antigravity, la aplicación
 puede pedirte confiar en la carpeta o permitir las herramientas de Panky.
 Comprueba que muestra la ruta de esta instancia; el agente debe usar tu
 identidad de Google y las mismas reglas de acceso, aunque cambies de chat.

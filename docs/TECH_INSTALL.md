@@ -11,13 +11,13 @@ actualizaciones salen de [Prisma Releases](https://github.com/Pancracio-Prisma/p
 
 ## Antes de empezar
 
-Abre `Documents/` como carpeta de trabajo en Codex, Claude Code, Gemini CLI o Antigravity.
+Abre `Documents/` como carpeta de trabajo en Codex, Claude Code o Antigravity.
 El agente elegido necesita acceso a archivos y terminal; para pasos de navegador
 puede guiarte mientras tú completas el inicio de sesión y las aprobaciones.
 Deja listo:
 
 - **Visual Studio Code** instalado, con la interfaz de Codex, Claude Code,
-  Gemini CLI o Antigravity que prefieras usar. Inicia sesión en ese proveedor
+  Antigravity que prefieras usar. Inicia sesión en ese proveedor
   y comprueba que tu plan permite usar su agente en VS Code. Para trabajar de
   forma continua, prevé un plan de pago de entrada cercano a USD 20 al mes;
   el precio y los límites dependen del proveedor.
