@@ -55,21 +55,27 @@ Necesitas Visual Studio Code, la interfaz de IA que prefieras y un plan que
 permita usar ese agente. Para el uso cotidiano, considera un plan de pago de
 entrada cercano a USD 20 al mes; los precios y límites dependen del proveedor.
 
-## Qué puedes pedirle
+## Las altas que puedes pedirle
 
-Panky te hará preguntas concretas y te mostrará el resultado antes de aplicar
-cambios que afecten a otras personas. Algunos ejemplos:
+La preparación técnica ocurre una vez por empresa. Después, cada persona
+instala su copia y Panky la ayuda a conocer su puesto. Las demás altas se
+piden cuando la empresa necesita incorporar o cambiar algo. Panky hará las
+preguntas que falten y mostrará el resultado antes de aplicar cambios que
+afecten a otras personas.
 
-| Situación | Mensaje de ejemplo |
+| Alta o cambio | Mensaje de ejemplo |
 | --- | --- |
-| Primera instalación de una persona | “Instala Panky con este paquete y ayúdame a empezar.” |
-| Nuevo departamento | “Crea el departamento de Finanzas bajo Dirección y prepara su contexto.” |
-| Nuevo puesto o persona | “Da de alta a Andrea en el puesto de FP&A y usa su correo corporativo.” |
-| Nuevo recurso | “Conecta la carpeta de presupuestos al equipo de Finanzas.” |
+| Preparar la empresa | “Instala Panky Prisma para esta empresa siguiendo la guía técnica y ayúdame a definir su estructura y accesos.” |
+| Instalar para una persona | “Instala Panky Prisma con el ZIP de esta carpeta, verifica el paquete y acompáñame hasta que quede listo.” |
+| Conocer el trabajo de una persona | “Soy Andrea, acabo de entrar a FP&A. Ayúdame a entender mi puesto, mi equipo y los asuntos en curso.” |
+| Departamento | “Crea el departamento de Finanzas bajo Dirección y prepara su contexto.” |
+| Puesto y persona | “Da de alta a Andrea en FP&A con su correo corporativo y revisa qué acceso necesita.” |
+| Herramienta | “Conecta nuestro servicio de facturación y dime qué autorización necesita.” |
+| Recurso | “Conecta la carpeta de presupuestos al equipo de Finanzas.” |
 | Compartir acceso | “Quiero que este puesto pueda leer el tablero de gastos.” |
-| Subcontexto | “Crea un espacio restringido para el cierre mensual.” |
-| Cambio de rol o traslado | “Andrea pasa a Operaciones el próximo mes; revisemos qué cambia.” |
-| Baja | “Da de baja a este usuario y comprueba que perdió el acceso.” |
+| Espacio restringido | “Crea un espacio para el cierre mensual y muéstrame quién podría verlo.” |
+| Cambio de puesto | “Andrea pasa a Operaciones el próximo mes; revisemos qué cambia.” |
+| Baja | “Da de baja a esta persona y comprueba que perdió el acceso.” |
 
 También se pueden configurar roles, herramientas, excepciones y transferir la
 responsabilidad de Founder. Esas acciones requieren la autoridad
