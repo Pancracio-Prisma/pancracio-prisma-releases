@@ -7,7 +7,7 @@
 
 Panky es un asistente que recuerda el trabajo de una organización y ayuda a
 encontrar, actualizar y compartir lo que corresponde a cada persona. Puedes
-hablar con él desde Codex, Claude Code, Gemini CLI o Antigravity. El historial
+hablar con él desde Codex, Claude Code o Antigravity. El historial
 de cada aplicación puede ser distinto; el contexto de trabajo publicado y tus
 permisos siguen siendo los mismos.
 
@@ -88,6 +88,8 @@ empresa.
 
 ## Novedades
 
+- **0.2.10:** las guías y los kits nuevos presentan Antigravity como la
+  interfaz de Google para instalar y usar Panky.
 - **0.2.9:** al terminar una instalación, el agente abre Panky en una nueva
   ventana de VS Code y comprueba el primer saludo en la interfaz de IA elegida.
 - **0.2.8:** la empresa puede cambiar el nombre visible de Panky mediante una
