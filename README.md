@@ -1,5 +1,7 @@
 # Panky para tu empresa
 
+<img src="assets/panky-logo.svg" alt="Panky" width="360">
+
 Panky es un asistente que recuerda el trabajo de una organización y ayuda a
 encontrar, actualizar y compartir lo que corresponde a cada persona. Puedes
 hablar con él desde Codex, Claude Code, Gemini CLI o Antigravity. El historial
