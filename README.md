@@ -88,6 +88,8 @@ empresa.
 
 ## Novedades
 
+- **0.2.9:** al terminar una instalación, el agente abre Panky en una nueva
+  ventana de VS Code y comprueba el primer saludo en la interfaz de IA elegida.
 - **0.2.8:** la empresa puede cambiar el nombre visible de Panky mediante una
   configuración firmada. También puede recuperarse una actualización con un
   kit nuevo cuando una versión instalada aún no conoce ese flujo.
