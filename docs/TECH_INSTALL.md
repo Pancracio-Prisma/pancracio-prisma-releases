@@ -83,6 +83,15 @@ esa pregunta, puedes elegir POC durante el proceso sin empezar de cero.
 - **Cuentas y propiedad:** perfil de Chrome, cuenta Google, proyecto GCP,
   cuenta GitHub y organización de GitHub de la empresa. Si esa organización
   no existe, el agente te mostrará la propuesta antes de crearla.
+- **Publicación de repositorios:** Policy necesita una credencial de la
+  organización para crear repos privados y ajustar colaboradores al cambiar
+  Core. Es distinta de la llave SSH de transporte de cada instalación. El
+  agente configura un token de publicación con permisos de creación de repos,
+  Administración y Contenido de escritura, y Administración de organización
+  de solo lectura. En GCP puede guardarlo en Secret Manager y dar acceso solo
+  a la identidad de la VM; en otro alojamiento lo configura como secreto del
+  servicio. Nunca se entrega ese token a usuarios finales ni se incluye en el
+  kit firmado.
 
 ### Organización y acceso
 
